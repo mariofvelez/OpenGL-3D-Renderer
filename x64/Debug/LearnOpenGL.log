@@ -1,0 +1,24 @@
+﻿  test.cpp
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\renderer\Model.h(79,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\renderer\Model.h(107,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\renderer\Model.h(188,3): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(61,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(62,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(66,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(67,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(69,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(70,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(80,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(80,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(542,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(590,73): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(592,86): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(594,86): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(596,86): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(635,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\mvleg\source\repos\LearnOpenGL\LearnOpenGL\test.cpp(657,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  LearnOpenGL.vcxproj -> C:\Users\mvleg\source\repos\LearnOpenGL\x64\Debug\LearnOpenGL.exe

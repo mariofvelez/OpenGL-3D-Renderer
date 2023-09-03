@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\coralfish.fbx" />
+    <None Include="coral_fish2\scene.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="coral_fish2\scene.gltf" />
+    <None Include="shaders\ScreenVertex.shader" />
+    <None Include="shaders\ScreenFragment.shader" />
+    <None Include="shaders\LightFragment.shader" />
+    <None Include="shaders\LightVertex.shader" />
+    <None Include="shaders\DamaFragment.shader" />
+    <None Include="shaders\DamaVertex.shader" />
+    <None Include="shaders\SkyboxFragment.shader" />
+    <None Include="shaders\SkyboxVertex.shader" />
+    <None Include="shaders\InstanceVertex.shader" />
+    <None Include="shaders\Vertex.shader" />
+    <None Include="shaders\OutlineFragment.shader" />
+    <None Include="shaders\Fragment.shader" />
+    <None Include="shaders\ShadowVertex.shader" />
+    <None Include="shaders\ShadowFragment.shader" />
+    <None Include="shaders\PointLightShadowVertex.shader" />
+    <None Include="shaders\PointLightShadowGeometry.shader" />
+    <None Include="shaders\PointLightShadowFragment.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="plant.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mr_eletric.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gradient_1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gradient_2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gradient_3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\gfgfgfg_texture_color_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\gfgfgfg_texture_color_2_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="coral_fish2\textures\texture_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="coral_fish2\textures\texture_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="aurora_borealis_skybox.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skybox\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="stone.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="coral_fish2\license.txt" />
+  </ItemGroup>
+</Project>

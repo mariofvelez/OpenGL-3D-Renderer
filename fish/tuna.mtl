@@ -1,0 +1,31 @@
+newmtl blinn1SG
+illum 4
+Kd 0.63 0.55 0.08
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl blinn3SG
+illum 4
+Kd 0.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl fish1:material01
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.88 0.88 0.88
+Tf 1.00 1.00 1.00
+map_Kd fish.jpg
+bump fish bump.jpg -bm 1
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 752.60
+newmtl fish1:mouth
+illum 4
+Kd 0.01 0.01 0.01
+Ka 0.01 0.01 0.01
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 752.60
